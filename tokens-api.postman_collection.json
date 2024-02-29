@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "f08b9e45-087b-4f7e-ac77-6564ca842403",
+		"name": "tokens-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1754507"
+	},
+	"item": [
+		{
+			"name": "Create a token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Example Token\",\n    \"ticker\": \"ETX\",\n    \"description\": \"Example Token\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{API_ROOT}}/api/v1/tokens",
+					"host": [
+						"{{API_ROOT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tokens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_ROOT}}/api/v1/tokens/1",
+					"host": [
+						"{{API_ROOT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tokens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
