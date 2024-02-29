@@ -1,4 +1,4 @@
-// src/entity/Token.ts
+// src/entity/Token.entity.ts
 import { Entity, PrimaryGeneratedColumn, Column, Unique } from "typeorm";
 
 @Entity()

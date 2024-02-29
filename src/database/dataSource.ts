@@ -1,5 +1,6 @@
-// database/dataSource.ts
+// src/database/dataSource.ts
 import { DataSource } from "typeorm"
+import { Token } from "../entity/Token.entity"
 
 // Define the AppDataSource configuration
 export const AppDataSource = new DataSource({
@@ -10,7 +11,7 @@ export const AppDataSource = new DataSource({
   password: process.env.TYPEORM_PASSWORD,
   database: process.env.TYPEORM_DATABASE,
   entities: [
-    `${__dirname}/../src/entity/**/*.ts`
+    Token
   ],
   migrations: [
     `${__dirname}/database/migration/**/*.ts`

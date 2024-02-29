@@ -2,7 +2,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import { AppDataSource } from "../database/dataSource";
+import { AppDataSource } from "./database/dataSource";
 import app from './app';
 
 // Set the port for the server

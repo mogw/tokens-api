@@ -1,6 +1,6 @@
 import request from 'supertest';
 import app from '../app';
-import { AppDataSource } from '../../database/dataSource';
+import { AppDataSource } from '../database/dataSource';
 
 // Initialize the test data source
 beforeAll(async () => {

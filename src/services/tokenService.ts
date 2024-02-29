@@ -1,7 +1,7 @@
 // src/services/tokenService.ts
 import { Repository } from 'typeorm';
-import { AppDataSource } from '../../database/dataSource';
-import { Token } from '../entity/Token';
+import { AppDataSource } from '../database/dataSource';
+import { Token } from '../entity/Token.entity';
 
 // Create a new token
 export const createToken = async (name: string, ticker: string, description: string) => {
