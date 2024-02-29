@@ -1,0 +1,49 @@
+{
+  "name": "tokenapi",
+  "version": "1.0.0",
+  "description": "RESTful JSON API with two endpoints allowing for the creating and retrieval of \"token\" records in a PostgreSQL, reflecting the dynamic and multifaced nature of tokens in the cryptocurrency ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/src/index.js",
+    "dev": "nodemon src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "token",
+    "rest",
+    "api",
+    "typescript",
+    "node.js",
+    "express.js",
+    "postgresql",
+    "typeorm",
+    "test",
+    "jest"
+  ],
+  "author": "Mikita",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.21",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20"
+  }
+}
