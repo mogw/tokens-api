@@ -117,5 +117,5 @@ The API uses standard HTTP status codes to indicate the success or failure of re
 - 500 Internal Server Error: An error occurred on the server.
 
 ## Deployment
-- Live URL: [https://google.com]()
-- Postman Collection: [here]()
+- Live URL: [http://35.178.31.155/](http://35.178.31.155/)
+- Postman Collection: [here](https://github.com/mogw/tokens-api/blob/main/tokens-api.postman_collection.json)
